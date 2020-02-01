@@ -1,0 +1,58 @@
+2020.01.13 월요일 수업
+
+ MVC 패턴 => 패키지 이름으로 관리 => 관리하기 편하게, 유지보수 쉽게, 팀워크 상승
+ 
+ - Model 
+ 	 - vo(DTO) ==> 데이터 임시저장 할수 있는 클래스를 담어 놓은 공간
+ 	 - DAO     ==> DB(데이터베이스) and 외부파일과의 실제 연결
+ 	 - (Service)
+	 
+ 	 - 데이터 저장 및 비지니스 로직 구현
+ 
+ 	 
+ - Controller
+ 	 - [서비스 로직 구현]
+ 	 	View와 Model단을 연결하면서 사용자에게 제공할 화면단 연결 및 데이터 가공
+ 	 	Run 실행 
+ 	 		==> View > Controller > Model > DB
+ 	 		==> DB > Model > Controller > View
+
+ 
+ - View
+ 	 - 사용자에게 보여지는 화면단 (Console)
+ 	 	(System.out.println)등의 출력문은 모두 view에 존재하여야한다.
+ 	 	
+ 	 	
+ - String 관련 클래스
+ 	문자열 값 수정 불가능, immutable(불변)
+ 	수정 시 수정된 문자열이 새로 할당 되어 새 주소를 넘김
+ 	
+ 	 - StringBuffer 클래스
+ 	 	문자열 값 수정 가능, mutable(가변)
+ 	 	수정, 삭제 등이 기존 문자열에 수정되어 적용
+ 	 	기본 16문자 크기로 지정된 버퍼를 이용하며 크기 증가 가능
+ 	 	쓰레드 safe기능 제공(성능 저하 요인)
+ 	 	
+ 	 - String Builder 클래스
+ 	 	Buffer와 동일하나 쓰레드 safe기능을 제공하지 않음
+	 
+	 - StringTokenizer 클래스
+
+ - Wrapper 클래스
+	 - 기본 자료형을 객체화 해주는 클래스
+	 - 기본 자료형 > 객체 == boxing
+	 - 객체 > 기본 자료형 == unboxing
+	 
+	 - String을 기본 자료형으로 바꾸기
+	 	boolean은 경우에 따라 오류가 날 수 있다. Boolean.parseBoolean("true");
+	 	
+	 - Deprecated 된 것들은 왠만하면 사용하지 말자!
+	 
+ - 날짜 관련 클래스 
+ 	 - Date 클래스
+ 	 - Calendar 클래스
+ 	 - GregorianCalendar 클래스
+ 	 - Format 관련 클래스
+ 
+ 
+ 	
