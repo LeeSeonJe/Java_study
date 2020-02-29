@@ -4,12 +4,12 @@ public class Snack {
 //	- flavor : String
 //	- price : int
 
-//	+ ±âº»»ý¼ºÀÚ
-//	+ ¸Å°³º¯¼ö »ý¼ºÀÚ(ALL)
+//	+ ï¿½âº»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//	+ ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ALL)
 
 //	+ getter/setter
 //	+ toString() : String
-//		¤¤ Çü½Ä : ¸À[°¡°Ý¿ø]
+//		ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : ï¿½ï¿½[ï¿½ï¿½ï¿½Ý¿ï¿½]
 
 	private String flavor;
 	private int price;
